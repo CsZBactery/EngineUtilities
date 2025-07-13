@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\EngineMath\EngineMath.h">
+    <ClInclude Include="include\EngineMath\EngineMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Matrix2x2.h">
+    <ClInclude Include="include\EngineMath\Matrix2x2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Matrix3x3.h">
+    <ClInclude Include="include\EngineMath\Matrix3x3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Matrix4x4.h">
+    <ClInclude Include="include\EngineMath\Matrix4x4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Quaternion.h">
+    <ClInclude Include="include\EngineMath\Quaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Vector2.h">
+    <ClInclude Include="include\EngineMath\Vector2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Vector3.h">
+    <ClInclude Include="include\EngineMath\Vector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\EngineMath\Vector4.h">
+    <ClInclude Include="include\EngineMath\Vector4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

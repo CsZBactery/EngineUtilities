@@ -3,7 +3,7 @@
 #include <cmath>      // Para operaciones matemáticas 
 #include <iostream>   
 
-namespace EngineUtilities { // Namespace del motor de utilidades matemáticas
+namespace EngineUtilities { 
 
 /**
  * @brief Representa un vector bidimensional.

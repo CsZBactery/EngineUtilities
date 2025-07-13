@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\EngineMath\EngineMath.h" />
+    <ClInclude Include="include\EngineMath\Matrix2x2.h" />
+    <ClInclude Include="include\EngineMath\Matrix3x3.h" />
+    <ClInclude Include="include\EngineMath\Matrix4x4.h" />
+    <ClInclude Include="include\EngineMath\Quaternion.h" />
+    <ClInclude Include="include\EngineMath\Vector2.h" />
+    <ClInclude Include="include\EngineMath\Vector3.h" />
+    <ClInclude Include="include\EngineMath\Vector4.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,16 +132,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\include\EngineMath\EngineMath.h" />
-    <ClInclude Include="..\include\EngineMath\Matrix2x2.h" />
-    <ClInclude Include="..\include\EngineMath\Matrix3x3.h" />
-    <ClInclude Include="..\include\EngineMath\Matrix4x4.h" />
-    <ClInclude Include="..\include\EngineMath\Quaternion.h" />
-    <ClInclude Include="..\include\EngineMath\Vector2.h" />
-    <ClInclude Include="..\include\EngineMath\Vector3.h" />
-    <ClInclude Include="..\include\EngineMath\Vector4.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

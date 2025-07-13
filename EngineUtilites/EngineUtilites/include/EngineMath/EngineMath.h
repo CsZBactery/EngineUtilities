@@ -3,7 +3,7 @@
 #include <cmath>      // Funciones matemáticas estándar
 #include <algorithm>  // Funciones como std::min y std::max
 
-namespace EngineUtilities { // Namespace general de la librería
+namespace EngineUtilities { 
 
 /**
  * @brief Funciones matemáticas generales.
