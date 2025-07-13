@@ -1,5 +1,5 @@
 #pragma once
-namespace EngineUtils {
+namespace EngineUtilities {
 struct Vector4 {
     float x, y, z, w;
     Vector4() : x(0), y(0), z(0), w(0) {}

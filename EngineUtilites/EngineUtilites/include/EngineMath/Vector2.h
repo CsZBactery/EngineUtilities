@@ -1,9 +1,9 @@
-#pragma once 
+#pragma once // Evita inclusiones múltiples del archivo
 
-#include <cmath>      // Para operaciones matemáticas 
-#include <iostream>   
+#include <cmath>      // Para operaciones matemáticas como sqrt
+#include <iostream>   // Para posibles salidas por consola
 
-namespace EngineUtilities { 
+namespace EngineUtilities { // Namespace del motor de utilidades matemáticas
 
 /**
  * @brief Representa un vector bidimensional.
@@ -27,23 +27,23 @@ struct Vector2 {
         return Vector2(x - other.x, y - other.y);
     }
 
-    // Multiplicacion  entre dos vectores
+    // Producto punto entre dos vectores
     float dot(const Vector2& other) const {
         return x * other.x + y * other.y;
     }
 
-    // Longitud del vector
+    // Magnitud (longitud) del vector
     float magnitude() const {
         return std::sqrt(x * x + y * y);
     }
 
-    // Devuelve al vector
+    // Devuelve una versión normalizada del vector
     Vector2 normalized() const {
         float mag = magnitude();
-        return mag != 0 ? Vector2(x / mag, y / mag) : Vector2(); // Vector (0,0) 
+        return mag != 0 ? Vector2(x / mag, y / mag) : Vector2(); // Vector (0,0) si mag == 0
     }
 
-    // Multiplicacion por escalar
+    // Multiplicación por escalar
     Vector2 operator*(float scalar) const {
         return Vector2(x * scalar, y * scalar);
     }
