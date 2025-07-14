@@ -2,6 +2,7 @@
 
 #include "../Vectors/Vector3.h"
 #include "../ZayasMathMath.h"
+#include <Math/EngineMath.h>
 
 namespace ZayasMath {
 
