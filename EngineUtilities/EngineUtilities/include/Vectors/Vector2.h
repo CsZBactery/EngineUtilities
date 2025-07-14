@@ -84,8 +84,8 @@ namespace ZayasMath {
      * @return true si son aproximadamente iguales.
      */
     bool approxEqual(const CVector2& other, float epsilon = 1e-5f) const {
-      return ::ZayasMath::approxEqual(x, other.x, epsilon) &&
-        ::ZayasMath::approxEqual(y, other.y, epsilon);
+      return ::ZayasMath::Math::approxEqual(x, other.x, epsilon) &&
+        ::ZayasMath::Math::approxEqual(y, other.y, epsilon);
     }
   };
 
