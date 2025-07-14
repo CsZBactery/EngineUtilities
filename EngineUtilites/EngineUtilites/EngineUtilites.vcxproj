@@ -27,6 +27,10 @@
     <ClInclude Include="include\EngineMath\Vector2.h" />
     <ClInclude Include="include\EngineMath\Vector3.h" />
     <ClInclude Include="include\EngineMath\Vector4.h" />
+    <ClInclude Include="ZayasMathMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

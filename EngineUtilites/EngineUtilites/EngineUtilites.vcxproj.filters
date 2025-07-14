@@ -13,31 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Vectors">
+      <UniqueIdentifier>{d561daf4-7fd6-4eed-ac80-97ad4d23cb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrix">
+      <UniqueIdentifier>{c821eaae-5b76-4e8f-830e-bb9a2b319148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rotations">
+      <UniqueIdentifier>{b9dc8f50-b0e8-4e5d-b6be-0dca1d75c8d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\EngineMath\EngineMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\EngineMath\Matrix2x2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EngineMath\Matrix3x3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EngineMath\Matrix4x4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EngineMath\Quaternion.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\EngineMath\Vector2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Vectors</Filter>
     </ClInclude>
     <ClInclude Include="include\EngineMath\Vector3.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Vectors</Filter>
     </ClInclude>
     <ClInclude Include="include\EngineMath\Vector4.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineMath\Matrix2x2.h">
+      <Filter>Header Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineMath\Matrix3x3.h">
+      <Filter>Header Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineMath\Matrix4x4.h">
+      <Filter>Header Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineMath\Quaternion.h">
+      <Filter>Header Files\Rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="ZayasMathMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
