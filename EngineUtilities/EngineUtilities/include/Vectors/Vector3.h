@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../ZayasMathMath.h"
+#include <ZayasMathMath.h>
 
 namespace ZayasMath {
 

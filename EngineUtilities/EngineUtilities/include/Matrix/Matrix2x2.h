@@ -1,7 +1,6 @@
 #pragma once
 
-#include <Vectors/Vector2.h>
-#include <Math/EngineMath.h>
+#include "../Vectors/Vector2.h"
 #include "../ZayasMathMath.h"
 
 namespace ZayasMath {

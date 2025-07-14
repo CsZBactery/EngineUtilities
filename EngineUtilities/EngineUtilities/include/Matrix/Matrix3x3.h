@@ -2,7 +2,7 @@
 
 #include <Vectors/Vector2.h>   // Para CVector2
 #include <Vectors/Vector3.h>   // Para CVector3
-#include "../ZayasMathMath.h"
+#include <ZayasMathMath.h>
 #include <Math/EngineMath.h>
 
 namespace ZayasMath {

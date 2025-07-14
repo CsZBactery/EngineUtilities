@@ -6,12 +6,9 @@
 #include "../Matrix/Matrix2x2.h"               //#include "../Vectors/Vector3.h"
 #include "../Matrix/Matrix3x3.h"
 #include "../Matrix/Matrix4x4.h"
-#include "EngineMath.h"
 #include "ZayasMathMath.h"
 
-
 using namespace ZayasMath;
-using namespace ZayasMath::Math;
 
 int main() {
   std::cout << "==== ZAYAS MATH ENGINE TESTS ====\n\n";
@@ -62,8 +59,8 @@ int main() {
   std::cout << "Quaternion Rotation: (" << rotated.x << ", " << rotated.y << ", " << rotated.z << ")\n";
 
   // EngineMath
-  std::cout << "Circle area (r=5): " <<circleArea(5.0f) << "\n";
-  std::cout << "Triangle area (base=4, height=3): " <<triangleArea(4.0f, 3.0f) << "\n";
+  std::cout << "Circle area (r=5): " << circleArea(5.0f) << "\n";
+  std::cout << "Triangle area (base=4, height=3): " << triangleArea(4.0f, 3.0f) << "\n";
 
   std::cout << "\n==== ALL TESTS COMPLETED ====\n";
   return 0;
